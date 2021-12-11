@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Red Hat Display',sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #1b1b1f;
+}
+h1,h2{
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 44px;
+}
+h3{
+    font-size: 26px;
+}
+a{
+    color: white;
+}
+.content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 30px;
+}
+.behind-nav{
+    width: 100%;
+    height: 15vh;
+}
+.red-btn{
+    background-color: #e50914;
+    padding: 20px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+.red-btn:hover{
+    background-color: #1b1b1f;
+    border: 1px solid white;
+}
+.heading{
+    animation: Heading 5s ease-in-out 0s infinite normal;
+}
+.border{
+    animation: Border 5s ease-in-out 0s infinite normal;
+}
+.inner-shadow{
+    box-shadow: 0px 0px 118px 32px rgba(224,17,17,0.75) inset;
+    -webkit-box-shadow: 0px 0px 118px 32px rgba(224,17,17,0.75) inset;
+    -moz-box-shadow: 0px 0px 118px 32px rgba(224,17,17,0.75) inset;
+}
+/* ********** SECTION WITH IMAGE ********************************/
+.section-with-image{
+    background-color: black;
+    border-top: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.img-section{
+    position: relative;
+}
+.outer-image {
+    position: relative;
+    z-index: 1;
+}
+.inner-image{
+    position: absolute;
+    top: 100px;
+    width: 73%;
+    left: 83px;
+}
+.section-with-image-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.text-section{
+    width: 50%;
+    margin: 0 40px 0 0;
+}
+.text-section h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text-section h3{
+    font-weight: 400;
+}
+ /**********************************************************************************
+ *********************** MEDIA  QUERIES *******************************************/
+  
+ @media (max-width: 1230px) {
+    .content{
+      padding: 0 60px;
+    }
+}
+@media (max-width: 1100px) {
+    .content{
+      padding: 0 40px;
+    }
+    .behind-nav{
+        height: 10vh;
+    }
+}
+@media (max-width: 900px) {
+    .content{
+    padding: 0 30px;
+    }
+}
+@media (max-width: 868px) {
+    .behind-nav{
+        height: 15vh;
+    }   
+}
+@media (max-width: 380px) {
+}
+
+@keyframes Heading {
+    0% {
+        color:turquoise;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color: white;
+    }
+    100%{
+        color: #8E05C2;
+    }
+}
+@keyframes Border {
+    0% {
+        border: 2px solid turquoise;
+    }
+    25%{
+        border: 2px solid blue;
+    }
+    50%{
+        border: 2px solid yellow;
+    }
+    75%{
+        border: 2px solid white;
+    }
+    100%{
+        border: 2px solid #8E05C2;
+    }
+}

@@ -1,0 +1,34 @@
+.find-movies{
+    margin: 50px 0;
+}
+.search{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.search-container-input{
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.5s;
+    cursor: auto;
+    width: 70%;
+    color: black;
+    /* margin-right: 30px; */
+}
+.search-container-input:focus{
+    background-color: grey;
+    color: white;
+    outline: none;
+}
+.s-btn i{
+    color: black;
+}
+.s-btn {
+    cursor: pointer;
+    padding: 13px;
+    border: none;
+    background-color: red;
+}
