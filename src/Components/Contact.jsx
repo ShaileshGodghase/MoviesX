@@ -37,7 +37,7 @@ class Contact extends Component {
                 <section className="contact">
                     <div className="content">
                         <div className="container border">
-                            <form id="contact-form"  action="https://getform.io/f/b0f1e2aa-8cee-4bd0-a084-11b46a57c8cf" method="POST">
+                            <form id="contact-form"  action="https://getform.io/f/b0f1e2aa-8cee-4bd0-a084-11b46a57c8cf" method="POST" target="_blank">
                                 <label htmlFor="fname">First Name</label>
                                 <input className="c-form-input" value={Fname} onChange={this.fnameHandler} type="text" id="fname" name="firstname" placeholder="Ex. John" required/>
                                 <label htmlFor="lname">Last Name</label>
