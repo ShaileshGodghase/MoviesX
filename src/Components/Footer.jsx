@@ -41,8 +41,8 @@ function Footer() {
                 </div>
                 <div className="credits">
                     <h4>Designed & Developed By 
-                        <a href="https://404-sg.netlify.app/" className="heading" rel="noreferrer" target="_blank">Shailesh Godghase</a> 
-                        | &copy; 2021 All Rights reserved.
+                        <a href="https://bit.ly/shailesh-portfolio" className="heading" rel="noreferrer" target="_blank">Shailesh Godghase</a> 
+                        | &copy; 2023 All Rights reserved.
                     </h4>
                 </div>
             </div>      
